@@ -18,6 +18,7 @@ send desktop notifications from your Go application
 * __OS X 10.9+__ using _AppleScript_ `display notification`
 
 _I'd like to add support for other operating systems (primarily Windows and \*BSD)._
+
 * _libnotify_ would probably work for \*BSD but I don't want to implement without testing.
 * Windows doesn't seem to have an easy way of doing this, and I want to avoid doing something like bundling a 3rd party binary.  Please let me know of any ideas/suggestions to provide Windows notifications cleanly.
 
@@ -38,6 +39,7 @@ func main() {
 ~~~
 
 ## documentation / reference
+
 [godoc.org/github.com/ctcpip/notifize](http://godoc.org/github.com/ctcpip/notifize)
 
 ### projects that use notifize
