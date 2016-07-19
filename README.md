@@ -17,7 +17,7 @@ send desktop notifications from your Go application
 * __GNU/Linux__ using _libnotify_ `notify-send`
 * __OS X 10.9+__ using _AppleScript_ `display notification`
 
-_I'd like to add support for other operating systems (primarily Windows and \*BSD)._
+I'd like to add support for other operating systems (primarily Windows and \*BSD).
 
 * _libnotify_ would probably work for \*BSD but I don't want to implement without testing.
 * Windows doesn't seem to have an easy way of doing this, and I want to avoid doing something like bundling a 3rd party binary.  Please let me know of any ideas/suggestions to provide Windows notifications cleanly.
