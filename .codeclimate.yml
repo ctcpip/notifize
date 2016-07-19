@@ -1,0 +1,19 @@
+---
+engines:
+  fixme:
+    enabled: true
+  markdownlint:
+    enabled: true
+    checks:
+      MD013:
+        enabled: false
+  golint:
+    enabled: true
+  gofmt:
+    enabled: true
+  govet:
+    enabled: true
+ratings:
+  paths:
+    - "**.go"
+exclude_paths: []
