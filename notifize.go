@@ -35,7 +35,7 @@ func Display(summary string, body string, isUrgent bool, iconPath string) {
 
 	case "darwin":
 
-		exec.Command("osascript", "-e", "display notification", body, "with title", summary).Run()
+		exec.Command("osascript", "-e", "display notification \""+body+"\" with title \""+summary+"\"").Run()
 
 	case "linux":
 
