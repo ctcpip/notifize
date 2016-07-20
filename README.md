@@ -3,7 +3,7 @@
 a desktop notification package for Go / golang
 
 [![GoDoc](https://godoc.org/github.com/ctcpip/notifize?status.svg)](https://godoc.org/github.com/ctcpip/notifize)
-![Development Status](https://img.shields.io/badge/development%20status-pre--alpha-red.svg)
+![Version 1.0.0](https://img.shields.io/badge/version-1.0.0-blue.svg)
 [![Code Climate](https://img.shields.io/codeclimate/github/ctcpip/notifize.svg)](https://codeclimate.com/github/ctcpip/notifize)
 [![Issue Count](https://img.shields.io/codeclimate/issues/github/ctcpip/notifize.svg)](https://codeclimate.com/github/ctcpip/notifize/issues)
 [![License](https://img.shields.io/badge/license-GNU%20GPLv3-blue.svg)](./LICENSE)
