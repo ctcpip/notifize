@@ -22,4 +22,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 package notifize
 
-//import "testing"
+func Example() {
+	Display("title", "hello, world", false, "")
+}
