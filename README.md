@@ -8,6 +8,10 @@ a desktop notification package for Go / golang
 [![Issue Count](https://img.shields.io/codeclimate/issues/github/ctcpip/notifize.svg)](https://codeclimate.com/github/ctcpip/notifize/issues)
 [![License](https://img.shields.io/badge/license-GNU%20GPLv3-blue.svg)](./LICENSE)
 
+| GNU/Linux | OS X |
+|:-------------:|:-------------:|
+|![notifize_gnu_linux](https://cloud.githubusercontent.com/assets/15326526/16973882/1c794dbc-4dfd-11e6-9136-78f6b7760914.png)|![notifize_osx](https://cloud.githubusercontent.com/assets/15326526/16973883/1c7fe456-4dfd-11e6-9551-7a8b527b8ec6.png)|
+
 ## how it works
 
 send desktop notifications from your Go application
