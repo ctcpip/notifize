@@ -2,30 +2,30 @@
 package notifize
 
 import (
-	"os/exec"
-	"runtime"
+  "os/exec"
+  "runtime"
 )
 
 // Display a notification
 func Display(summary string, body string, isUrgent bool, iconPath string) {
 
-	switch runtime.GOOS {
+  switch runtime.GOOS {
 
-	case "darwin":
+  case "darwin":
 
-		exec.Command("osascript", "-e", "display notification \""+body+"\" with title \""+summary+"\"").Run()
+    exec.Command("osascript", "-e", "display notification \""+body+"\" with title \""+summary+"\"").Run()
 
-	case "linux":
+  case "linux":
 
-		if isUrgent {
-			exec.Command("notify-send", "-i", iconPath, summary, body, "-u", "critical").Run()
-		} else {
-			exec.Command("notify-send", "-i", iconPath, summary, body).Run()
-		}
+    if isUrgent {
+      exec.Command("notify-send", "-i", iconPath, summary, body, "-u", "critical").Run()
+    } else {
+      exec.Command("notify-send", "-i", iconPath, summary, body).Run()
+    }
 
-	case "android", "dragonfly", "freebsd", "nacl", "netbsd", "openbsd", "plan9", "solaris", "windows":
-		// not implemented
+  case "android", "dragonfly", "freebsd", "nacl", "netbsd", "openbsd", "plan9", "solaris", "windows":
+    // not implemented
 
-	}
+  }
 
 }
